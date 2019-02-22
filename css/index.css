@@ -162,19 +162,33 @@ p {
 }
 .top-main {
   background-color: #F6F6F6;
-}
-.top-main .top-nav {
-  width: 800px;
-  margin: auto;
-  padding: 15px 0;
   display: flex;
   justify-content: center;
 }
+.top-main .top-nav {
+  width: 800px;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 .top-main .top-nav h1 {
-  font-size: x-large;
+  font-size: 5rem;
+  margin: auto;
 }
 .top-main .top-nav nav {
+  font-size: 1.5rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.top-main .top-nav nav a {
+  margin: auto;
   align-content: space-between;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #454A59;
+  font-weight: bold;
 }
 footer {
   color: #22283B;

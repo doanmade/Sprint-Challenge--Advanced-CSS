@@ -1,19 +1,36 @@
 // Navigation code here
 .top-main{
     background-color: @nav-bg;
+    display: flex;
+    justify-content: center;
+    
     .top-nav {
         width: 800px;
-        margin: auto;
         padding: 15px 0;
         display: flex;
         justify-content: center;
+        flex-direction: column;
 
         h1 {
-    font-size: x-large;
+    font-size: 5rem;
+    margin: auto;
         }
 
         nav{
-            align-content: space-between;
+            font-size: 1.5rem;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+
+            a {
+                margin: auto;
+                align-content: space-between;
+                padding: 10px 20px;
+                text-decoration: none;
+                color: @nav-font;
+                font-weight: bold;
+
+            }
         }
     }
 }    
