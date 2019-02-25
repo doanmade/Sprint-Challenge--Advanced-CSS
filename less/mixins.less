@@ -1,1 +1,26 @@
 // Mixins Here
+.title() {
+    font-size: 5rem;
+    margin: auto;
+        }
+
+.top-nav-box(@width) {
+    width: @width;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button {
+    color: @border-real;
+    background: @btn-bg-color;
+
+    &:hover {
+        
+        color: @btn-bg-color;
+        background: @border-real;
+        border: 1px solid @btn-bg-color;
+        padding: 9px;
+    }
+}
